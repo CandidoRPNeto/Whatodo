@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(28, 35, 47);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+h1{
+    color: rgb(105, 132, 177);
+}
+
+.Lista{
+    width: 50%;
+    height: auto;
+    border-radius: 35px;
+    margin: 10% auto;
+    text-align: center;
+    background-color: rgb(43, 54, 73);
+}
+
+.Corpo{
+    border-bottom: 1px solid rgb(105, 132, 177);
+}
+
+.Botao{
+    font-size: 600%;
+    color: rgb(105, 132, 177);
+    background-color: transparent;
+    border: 5px solid rgb(43, 54, 73);
+    width: 20%;
+    height: 35%;
+    border-radius: 80px;
+}
+
+.Botao:hover  {
+    background-color:rgb(60, 74, 100);    
+}
+
+.Tarefas{
+    color: rgb(60, 74, 100);
+    margin: auto;
+    width: 95%;
+    height: 70%;
+    border: 5px solid rgb(43, 54, 73);
+    background-image: linear-gradient(to right, rgb(205, 16, 38) , rgb(232, 215, 30));
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.Nome {
+    width: 25%;
+    height: 70%;
+    font-size: 200%;
+    float: left;
+    justify-content: space-around;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.Nome p {
+    white-space: normal;
+    width: 250%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Prioridade{
+    font-size: 150%;
+}
+
+.Txt {
+    width: 25%;
+    height: 70%;
+    float: right;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 3%;
+    text-align: right;
+}
+
+.Botao:active  {
+    background-color:rgb(105, 132, 177);
+    color: rgb(43, 54, 73);   
+}
